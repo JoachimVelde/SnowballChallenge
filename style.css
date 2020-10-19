@@ -6,13 +6,16 @@
 
 body {
     font-size: 14px;
-<<<<<<< Updated upstream
     font-family: 'Arial';
+    padding-top: 80px; /* Lik høyde på menyen */
 }
 
 .navbar {
     height: 80px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(60, 60, 60);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logo {
@@ -74,7 +77,7 @@ body {
         height: 100%;
         top: 80px;
         left: -100%;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgb(25, 25, 25);
         transition: 200ms ease;
     }
 
@@ -86,15 +89,16 @@ body {
         padding: 20px 0px;
     }
 
-    .navbar nav a:hover, .navbar nav a:focus {
-        background-color: rgba(0, 0, 0, 0.7);
+    .navbar nav a:hover,
+    .navbar nav a:focus {
+        background-color: rgb(10, 10, 10);
     }
 
     #checkbox:checked ~ nav {
         left: 0;
     }
-}
-=======
+
+    /* Legg til no-scroll på body */
 }
 
 .topbox{
@@ -165,4 +169,3 @@ p{
 }
 
     
->>>>>>> Stashed changes
