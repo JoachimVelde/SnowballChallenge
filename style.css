@@ -6,6 +6,7 @@
 
 body {
     font-size: 14px;
+<<<<<<< Updated upstream
     font-family: 'Arial';
 }
 
@@ -93,3 +94,75 @@ body {
         left: 0;
     }
 }
+=======
+}
+
+.topbox{
+    height: 400px;
+    width: 100%;
+    background-color: brown;
+}
+
+.search{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    height: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 60px;
+    text-decoration: none; 
+    font-family: sans-serif;
+    color: white;
+}
+
+.prob{
+    height: 400px;
+    width: 100%;
+    background-color: bisque;
+}
+
+h2{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+p{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.product {
+    height: 350px;
+    width: 75%;
+    float: left;
+    background-color: burlywood;
+}
+
+.devices{
+    float: right;
+    height: 350px;
+    width: 25%;
+    background-color: rgba(0,0,3,0.2);
+}
+
+.map{
+    height: 350px;
+    width: 50%;
+    float:right;
+    background-color: green;
+}
+
+.locate{
+    height: 350px;
+    width: 50%;
+    float: left;
+    background-color:darkslategray;
+}
+
+    
+>>>>>>> Stashed changes
