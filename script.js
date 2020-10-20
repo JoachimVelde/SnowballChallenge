@@ -11,7 +11,6 @@ window.addEventListener("resize", () => {
 });
 
 checkbox.addEventListener("change", () => {
-    console.log(12);
     if (checkbox.checked) {
         crossBurger();
     } else {
@@ -28,7 +27,7 @@ function crossBurger() {
 
 function uncrossBurger() {
     body.style.overflowY = "scroll";
-    burgers[0].style.transform = "rotate(0deg) translate(0px, 0px)";
+    burgers[0].style.transform = "";
     burgers[1].style.visibility = "visible";
-    burgers[2].style.transform = "rotate(0deg)";
+    burgers[2].style.transform = "";
 }
