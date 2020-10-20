@@ -1,5 +1,14 @@
+const body = document.querySelector("body");
 const checkbox = document.querySelector("#checkbox");
 const burgers = document.querySelectorAll(".burger-bar");
+
+window.addEventListener("resize", () => {
+    if (window.innerWidth > 730) {
+        body.style.overflowY = "scroll";
+    } else if (checkbox.checked) {
+        body.style.overflowY = "hidden";
+    }
+});
 
 checkbox.addEventListener("change", () => {
     console.log(12);
@@ -11,13 +20,14 @@ checkbox.addEventListener("change", () => {
 });
 
 function crossBurger() {
+    body.style.overflowY = "hidden";
     burgers[0].style.transform = "rotate(45deg) translate(12px, 16px)";
     burgers[1].style.visibility = "hidden";
     burgers[2].style.transform = "rotate(-45deg) translate(12px, -16px)";
-    console.log(23);
 }
 
 function uncrossBurger() {
+    body.style.overflowY = "scroll";
     burgers[0].style.transform = "rotate(0deg) translate(0px, 0px)";
     burgers[1].style.visibility = "visible";
     burgers[2].style.transform = "rotate(0deg)";
