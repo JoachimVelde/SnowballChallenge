@@ -171,9 +171,9 @@ p{
     width: 25%;
     background-image: url(device.png);
     background-repeat: no-repeat;
-    background-size: 95%;
+    background-size: 90%;
     background-color: rgba(0,0,2,0.2);
-    background-position: center;
+    background-position: left;
     z-index: -1;
 }
 
@@ -181,14 +181,18 @@ p{
     height: 350px;
     width: 50%;
     float:right;
-    background-color: green;
+    background-color: rgba(100, 20,5,0.2);
+    background-image: url(continents-of-earth.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .locate{
     height: 350px;
     width: 50%;
     float: left;
-    background-color:darkslategray;
+    background-color:rgba(100, 20,5,0.2);
 }
 
 
