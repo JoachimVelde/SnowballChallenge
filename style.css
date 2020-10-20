@@ -48,20 +48,7 @@ body {
 }
 
 #checkbox {
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    width: 100px;
-    height: 100%;
-}
-
-#checkbox:hover {
-    cursor: pointer;
-}
-
-#checkbox:focus ~ .menuButton{
-    outline: 3px solid white;
-    z-index: 1; /* Plasserer outline over menyen */
+    display: none;
 }
 
 @media only screen and (max-width: 730px) {
@@ -106,8 +93,26 @@ body {
         background-color: rgb(10, 10, 10);
     }
 
+    #checkbox {
+        display: block;
+        opacity: 0;
+        position: absolute;
+        right: 0;
+        width: 100px;
+        height: 100%;
+    }
+
     #checkbox:checked ~ nav {
         display: block;
+    }
+
+    #checkbox:hover {
+        cursor: pointer;
+    }
+    
+    #checkbox:focus ~ .menuButton{
+        outline: 1px solid white;
+        z-index: 1; /* Plasserer outline over menyen */
     }
 }
 
