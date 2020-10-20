@@ -177,20 +177,13 @@ p{
     z-index: -1;
 }
 
-.map{
-    height: 350px;
-    width: 50%;
-    float:right;
-    background-color: rgba(100, 20,5,0.2);
-    background-image: url(continents-of-earth.png);
-    background-size: 70%;
-    background-position: center;
-    background-repeat: no-repeat;
+.mapouter{
+    float: right;
 }
 
 .locate{
     height: 350px;
-    width: 50%;
+    width: 840px;
     float: left;
     background-color:rgba(100, 20,5,0.2);
 }
