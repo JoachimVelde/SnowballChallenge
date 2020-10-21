@@ -217,6 +217,7 @@ form input[type=submit]{
     font-style: inherit;
     background-color: rgba(0,0,0,0.3);
     border-radius: 5px;
+    border: solid 1px;
     color:snow;   
 }
 
