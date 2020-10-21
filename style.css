@@ -188,6 +188,19 @@ p{
     background-color:rgba(100, 20,5,0.2);
 }
 
+form{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+form label{
+    font-size:20px;
+}
+
+form input[type=text]{
+    width: 200px;
+}
+
 
 
     
