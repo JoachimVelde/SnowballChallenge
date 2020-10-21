@@ -202,5 +202,28 @@ form input[type=text]{
 }
 
 
+/* SOURCES-PAGE */
+.source-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 40px 0px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    text-align: center;
+}
 
-    
+.source-container h1 {
+    margin: 0;
+}
+
+.source-container img {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.source-container a {
+    color: inherit;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
