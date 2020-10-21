@@ -141,13 +141,13 @@ h1 {
 .prob{
     height: 400px;
     width: 100%;
-    background-color: bisque;
+    background-color: deepskyblue;
 }
 
 h2{
     margin-left: 20px;
-    padding-top: 10px;
-    font-size: 30px;
+    padding-top: 15px;
+    font-size: 40px;
 }
 
 p{
@@ -156,9 +156,11 @@ p{
     padding-top: 10px;
     font-size: 20px;
     
+    
 }
 
 .product {
+    margin-top: 8px;
     height: 350px;
     width: 75%;
     float: left;
@@ -169,6 +171,7 @@ p{
     float: right;
     height: 350px;
     width: 25%;
+    margin-top: 8px;
     background-image: url(device.png);
     background-repeat: no-repeat;
     background-size: 90%;
