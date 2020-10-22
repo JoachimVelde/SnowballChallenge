@@ -243,7 +243,7 @@ form input[type=submit]{
 .source-container {
     width: 80%;
     margin: 20px auto;
-    padding: 40px 0px;
+    padding: 40px 10px;
     background-color: rgb(80, 80, 80);
     color: white;
     text-align: center;
@@ -251,20 +251,30 @@ form input[type=submit]{
 
 .source-container h1 {
     margin: 0;
+    margin-bottom: 20px;
+    border-bottom: 4px solid white;
+}
+
+.source-container h2 {
+    margin-bottom: 10px;
 }
 
 .source-container img {
     height: 150px;
+    max-width: 100%;
     display: block;
     margin: auto;
 }
 
 .source-container a {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 80px;
     color: inherit;
-    margin-bottom: 50px;
     font-size: 1.3rem;
+    word-break: break-all;
 }
-
+/* SOURCES-PAGE END */
 
 footer {
     display: block;
