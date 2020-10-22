@@ -202,18 +202,17 @@ p{
 
 form{
     margin-top: 70px;
-    margin-left: 100px;
+    margin-left: 240px;
 }
 
 form label{
-    font-size:20px;
-    font-size: 20px;
+    font-size:30px;
     letter-spacing: 3px;
     color: white;
 }
 
 form input[type=text]{
-    width: 200px;
+    width: 230px;
     height: 35px;
     margin-top: 10px;
     background-color: rgba(0,0,0,0.2);
