@@ -13,7 +13,7 @@ body {
 
 .navbar {
     height: 80px;
-    background-color: rgb(60, 60, 60);
+    background-color: rgba(155, 204, 206, 0.562);
     position: fixed;
     top: 0;
     width: 100%;
@@ -153,7 +153,7 @@ h1 {
 
 .prob{
     width: 100%;
-    background-color: rgba(18, 93, 136, 0.7);
+    background-color: rgba(7, 57, 87, 0.7);
 }
 
 h2{
@@ -173,7 +173,7 @@ p{
     height: 400px;
     width: 75%;
     float: left;
-    background-color:rgba(0,0,2,0.2);
+    background-color:rgba(23, 85, 31, 0.5);
 }
 
 .devices{
@@ -183,7 +183,7 @@ p{
     background-image: url(media/device.png);
     background-repeat: no-repeat;
     background-size: 90%;
-    background-color: rgba(0,0,2,0.2);
+    background-color: rgba(23, 85, 31, 0.5);
     background-position: left;
     z-index: -1;
 }
