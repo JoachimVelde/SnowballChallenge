@@ -1,6 +1,6 @@
-const body = document.querySelector("body");
-const checkbox = document.querySelector("#checkbox");
-const burgers = document.querySelectorAll(".burger-bar");
+var body = document.querySelector("body");
+var checkbox = document.querySelector("#checkbox");
+var burgers = document.querySelectorAll(".burger-bar");
 
 window.addEventListener("resize", () => {
     if (window.innerWidth > 730) {

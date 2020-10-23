@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 14px;
     font-family: 'Arial';
@@ -13,7 +17,7 @@ body {
 
 .navbar {
     height: 80px;
-    background-color: rgba(89, 159, 161, 0.658);
+    background-color: rgb(26, 108, 110);
     position: fixed;
     top: 0;
     width: 100%;
@@ -50,6 +54,12 @@ body {
 
 #checkbox {
     display: none;
+}
+
+@media only screen and (max-width: 820px) {
+    .navbar nav a {
+        padding: 0px 15px;
+    }
 }
 
 @media only screen and (max-width: 730px) {
@@ -123,32 +133,28 @@ body {
 }
 
 .topbox{
-    height: 400px;
+    height: 450px;
     width: 100%;
     background-image: url(media/keith-luke-dKe9GgzS8Ek-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.search{
-    margin-left: 20px;
-    margin-top: 10px;
-    background-color: rgba(0,0,0,0.2);
-    border: solid 1px;
-    border-radius: 5px;
-    height: 30px;
-    width: 180px;
-    color: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     text-align: center;
-    margin-top: 120px;
     font-size: 60px;
     text-decoration: none; 
     font-family: sans-serif;
     color: white;
+}
+
+#sdg14-anchor {
+    position: relative;
+    top: -80px;
 }
 
 .prob{
@@ -169,23 +175,37 @@ p{
     font-size: 1.42rem; 
 }
 
+.product-wrapper {
+    display: flex;
+    background-color:rgba(6, 104, 11, 0.842);
+}
+
 .product {
-    height: 400px;
-    width: 75%;
+    width: 60%;
     float: left;
-    background-color:rgba(23, 85, 31, 0.5);
+    padding-bottom: 20px;
+    flex-direction: column;
 }
 
 .devices{
-    float: right;
-    height: 400px;
-    width: 25%;
-    background-image: url(media/device.png);
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-color: rgba(23, 85, 31, 0.5);
-    background-position: left;
-    z-index: -1;
+    flex-grow: 1;
+    width: 15%;
+}
+
+@media only screen and (max-width: 680px) {
+    .product-wrapper {
+        flex-direction: column;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .devices {
+        display: block;
+        margin: auto;
+        width: 200px;
+    }
 }
 
 .mapouter{
@@ -197,7 +217,7 @@ p{
     height: 450px;
     width: 50%;
     float: left;
-    background-color:rgba(100, 20,5,0.2);
+    background-color:rgba(100, 19, 5, 0.712);
 }
 
 form{
