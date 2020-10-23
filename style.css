@@ -176,32 +176,44 @@ p{
 }
 
 .product-wrapper {
-    display: flex;
     background-color:rgba(6, 104, 11, 0.842);
+    color: white;
 }
 
-.product {
-    width: 60%;
+.product-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*
+The code above is taken from the first answer to this question:
+https://stackoverflow.com/questions/23815753/how-to-put-images-to-the-right-and-text-to-the-left-in-css
+*/
+
+.product-text {
+    font-size: 1.42rem;
+    width: 70%;
     float: left;
-    padding-bottom: 20px;
-    flex-direction: column;
+}
+
+.product-text p {
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .devices{
-    flex-grow: 1;
-    width: 15%;
+    float: left;
+    width: 30%;   
 }
 
 @media only screen and (max-width: 680px) {
-    .product-wrapper {
-        flex-direction: column;
-    }
-
-    .product {
+    .product-text {
         width: 100%;
     }
 
     .devices {
+        float: none;
         display: block;
         margin: auto;
         width: 200px;
