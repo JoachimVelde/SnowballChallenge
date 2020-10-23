@@ -21,6 +21,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .logo {
@@ -178,6 +179,7 @@ p{
 .product-wrapper {
     background-color:rgba(6, 104, 11, 0.842);
     color: white;
+    position: relative;
 }
 
 .product-wrapper:after {
@@ -194,6 +196,7 @@ https://stackoverflow.com/questions/23815753/how-to-put-images-to-the-right-and-
     font-size: 1.42rem;
     width: 70%;
     float: left;
+    padding-bottom: 30px;
 }
 
 .product-text p {
@@ -204,7 +207,10 @@ https://stackoverflow.com/questions/23815753/how-to-put-images-to-the-right-and-
 
 .devices{
     float: left;
-    width: 30%;   
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @media only screen and (max-width: 680px) {
@@ -213,6 +219,9 @@ https://stackoverflow.com/questions/23815753/how-to-put-images-to-the-right-and-
     }
 
     .devices {
+        position: relative;
+        top: 0%;
+        transform: translateY(0%);
         float: none;
         display: block;
         margin: auto;
