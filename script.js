@@ -1,6 +1,7 @@
 var body = document.querySelector("body");
 var checkbox = document.querySelector("#checkbox");
 var burgers = document.querySelectorAll(".burger-bar");
+var reloadLinks = document.querySelectorAll(".reload");
 
 window.addEventListener("resize", () => {
     if (window.innerWidth > 730) {
@@ -17,6 +18,13 @@ checkbox.addEventListener("change", () => {
         uncrossBurger();
     }
 });
+
+for (var i = 0; i < reloadLinks.length; i++) {
+    reloadLinks[i].addEventListener("click", () => {
+        checkbox.checked = false;
+        uncrossBurger();
+    });
+}
 
 function crossBurger() {
     body.style.overflowY = "hidden";
