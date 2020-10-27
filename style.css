@@ -211,8 +211,8 @@ https://stackoverflow.com/questions/23815753/how-to-put-images-to-the-right-and-
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 470px;
+    max-width: 470px;
 }
 
 @media only screen and (max-width: 680px) {
